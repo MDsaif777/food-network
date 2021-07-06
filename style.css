@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+h1{
+    font-size: 60px;
+    line-height: 40px;
+}
+.orange-col{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-with{
+    width: 40%;
+    margin-left: 120px;
+}
+.half-with img{
+    width: 90%;
+}
+.header-text{
+    margin-top: 180px;
+}
+.click-link{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #ff7b00, tomato);
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px;
+
+}
