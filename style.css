@@ -59,6 +59,10 @@ nav label{
 .half-with img{
     width: 90%;
 }
+.about-class img{
+    height: 100%;
+    width: 500px;
+}
 .header-text{
     margin-top: 180px;
 }
