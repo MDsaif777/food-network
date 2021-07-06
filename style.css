@@ -21,6 +21,34 @@ section{
     display: flex;
     margin-bottom: 200px;
 }
+nav{
+    height: 80px;
+    background: black;
+    color: gray;
+    padding-top: 30px;
+}
+nav label{
+    padding: 90px;
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+.header-tab{
+    float: right;
+    margin-right: 50px;
+}
+.header-tab li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+.header-tab li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
 .half-with{
     width: 40%;
     margin-left: 120px;
