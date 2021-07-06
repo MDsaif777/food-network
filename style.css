@@ -1,20 +1,28 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
 
 }
 h1{
     font-size: 60px;
     line-height: 40px;
 }
+h2{
+    font-size: 35px;
+}
 .orange-col{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-with{
     width: 40%;
     margin-left: 120px;
+}
+.half-with p{
+    margin-bottom: 60px;
 }
 .half-with img{
     width: 90%;
@@ -25,9 +33,60 @@ section{
 .click-link{
     text-decoration: none;
     background-image: linear-gradient(to right, #ff7b00, tomato);
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-weight: 500;
     color: white;
     border-radius: 50px;
 
+}
+.about-text{
+    margin-top: 200px;
+}
+.about-div{
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recipi-div {
+    text-align: center;
+    margin:auto;
+}
+.recipe-title{
+    width: 25%;
+    box-shadow: 10px 10px 10px 10px gray;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.recipe-title img{
+ width: 90%;
+ padding: 20px;
+}
+.recipi-section{
+    margin-bottom: 50px;
+}
+.media-contain{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    box-shadow: 5px 5px 10px 7px gray;
+    padding:25px;
+    border-radius: 20px;
+}
+.media-div{
+    width: 55%;
+    margin-left: 6%;
+
+}
+.footer-div{
+    
+    text-align: center;
+    margin: auto;
+    color: gray;
+    
+}
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
