@@ -60,8 +60,9 @@ nav label{
     width: 90%;
 }
 .about-class img{
-    height: 100%;
-    width: 500px;
+    margin-top: 100px;
+    height: 500px;
+    width: 430px;
 }
 .header-text{
     margin-top: 180px;
